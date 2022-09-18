@@ -6,7 +6,7 @@ Here you have a simple and straighforward Python script that allows you to chang
 
 Please note that weather indications are voluntarely reductive and provided without any warranty
 
-## How to use
+## Configuration
 
 First you need to have images stored in the same folder that correspond to the following weather states:
 - "clear"
@@ -29,4 +29,8 @@ If True, the weather code given by the API will be for the hour.
 If False, the weather code given by the API will be for the whole day.
 
 That's it!
+
+## Run automatically with systemd
+
+Currently under test!
 
